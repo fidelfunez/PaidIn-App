@@ -170,8 +170,6 @@ Transactions are fetched from Mempool.space API:
 
 ## 🚀 Deployment
 
-> **⚠️ Production Checklist**: See [PRODUCTION_CHECKLIST.md](./PRODUCTION_CHECKLIST.md) for detailed deployment steps and security considerations.
-
 ### Vercel/Netlify (Frontend)
 
 1. Build the client: `npm run build`
