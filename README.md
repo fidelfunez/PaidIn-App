@@ -4,7 +4,7 @@ Bitcoin accounting software for small businesses. Track transactions, calculate 
 
 > **Note**: This codebase was pivoted from a full operations platform to focus solely on Bitcoin accounting. Old code has been removed but is preserved in git history. To view previous versions, check git commits before the pivot.
 
-## 🚀 Features
+## Features
 
 - **Bitcoin Wallet Management**: Connect and manage Bitcoin wallets (addresses and xpubs)
 - **Transaction Import**: Automatically fetch and import Bitcoin transactions from the blockchain
@@ -15,7 +15,7 @@ Bitcoin accounting software for small businesses. Track transactions, calculate 
 - **Real-time Exchange Rates**: Historical and current Bitcoin exchange rates via CoinGecko
 - **User Authentication**: Secure login/registration with company-based multi-tenancy
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, Wouter
 - **Backend**: Express.js, TypeScript, JWT authentication
@@ -23,13 +23,13 @@ Bitcoin accounting software for small businesses. Track transactions, calculate 
 - **Bitcoin**: Mempool.space API for transaction fetching, bitcoinjs-lib for validation
 - **External APIs**: CoinGecko (exchange rates), Coinbase (historical rates)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+
 - SQLite (included, no setup required)
 - CoinGecko API key (optional, for rate limits)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Install
 
@@ -114,11 +114,11 @@ The application uses the following main tables:
 - **exchange_rates**: Historical Bitcoin exchange rates
 - **session**: User session storage
 
-## 🔐 Authentication
+## Authentication
 
 The app uses JWT-based authentication. Users belong to companies and have access to their company's accounting data.
 
-## 💰 Bitcoin Integration
+## Bitcoin Integration
 
 ### Wallet Support
 
@@ -141,7 +141,7 @@ Transactions are fetched from Mempool.space API:
 - **Purchase Tracking**: Track Bitcoin purchases with cost basis
 - **Capital Gains/Loss**: Automatic calculation for tax reporting
 
-## 📱 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/signup` - User registration
@@ -168,7 +168,7 @@ Transactions are fetched from Mempool.space API:
 - `GET /api/accounting/rates/current` - Get current BTC rate
 - `GET /api/accounting/rates/historical` - Get historical BTC rates
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel/Netlify (Frontend)
 
@@ -194,7 +194,7 @@ EXPOSE 5000
 CMD ["npm", "start"]
 ```
 
-## 🔧 Development
+## Development
 
 ### Available Scripts
 
@@ -226,7 +226,7 @@ CMD ["npm", "start"]
 
 > **Note on Legacy Code**: This repository was pivoted from a full operations platform to focus on Bitcoin accounting. Old code has been removed but is preserved in git history. To view previous versions, check git commits before the pivot date.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -234,13 +234,9 @@ CMD ["npm", "start"]
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
-MIT License - see LICENSE file for details
-
-## 🆘 Support
-
-For support, please open an issue in the repository or contact the development team.
+MIT License - Use it, fork it, build with it. 
 
 ---
 
